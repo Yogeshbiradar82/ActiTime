@@ -30,7 +30,5 @@ public static void main(String[] args) {
 	driver.findElement(By.xpath("(//input[@placeholder='Enter task name'])[2]")).sendKeys("add Task 2");
 	driver.findElement(By.xpath("//span[text()='Create Project']")).click();
 	driver.close();
-	
-	
 }
 }
